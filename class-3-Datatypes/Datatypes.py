@@ -1,0 +1,35 @@
+eid=101
+esal=45000.45
+ename="Rahul"
+c=10+20j
+avail=False 
+#----------------------
+uids=[101,102,103,101]
+enames=("Rahul","Sonia","Priyanka")
+eids={101,101,102,101,101}
+emp={"eid":101,"ename":"Rahul"}
+#-------------------
+l=[10,20,30,40]
+b=bytes(l)
+ba=bytearray(l)
+fs=frozenset(l)
+#--------------------
+r =range(100)
+n = None 
+print(type(eid))
+print(type(esal))
+print(type(ename))
+print(type(c))
+print(type(avail))
+print("********************")
+print(type(uids))
+print(type(enames))
+print(type(eids))
+print(type(emp))
+print("********************")
+print(type(b))
+print(type(ba))
+print(type(fs))
+print("********************")
+print(type(r))
+print(type(n))
