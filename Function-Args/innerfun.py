@@ -3,6 +3,11 @@ def outer():
     
     def inner():
         print("Inner Function")
+        print("Inner Function")
+        print("Inner Function")
+        print("Inner Function")
+        print("Inner Function")
+        print("Inner Function")
 
     inner()
 
